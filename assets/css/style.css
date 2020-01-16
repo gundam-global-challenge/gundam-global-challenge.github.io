@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document ver1.05 */
+
+/* @group common */
+* {margin:0;padding:0;}
+html>body{font-size:14px;}
+body{font-size:88%;font-family:"Lucida Grande", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Verdana, sans-serif;line-height:1.4;color:#4a4a4a;text-align:center; background: #ffffff;}
+html>/**/body{font-size:88%;}
+*:first-child+html body{font-size:88%;}
+* html body{vertical-align:baseline;font-size:88%;}
+/*\*//*/
+* html body{letter-spacing:0;vertical-align:middle;}
+/**/
+h1, h2, h3, h4, h5, h6, table, p, ul, ol, dl, input, textarea{font-size:100%;}
+ul li, ol li{list-style-type:none;}
+table tr th, table tr td{line-height:1.4;text-align:left;vertical-align:top;}
+ul li p, ul li dl, ol li p, ol li dl, table p, table ul, dl dd p, dl dd ul,ul ul,dl table,table table,ul table,ol ul,dl h2,dl h3,dl ol,ul ol {font-size: 100%;}
+hr{display:none;}
+em, strong{font-weight:bold;}
+img{border:0;}
+sup {position: relative;top: .2em;font-size: 75%;}
+sub {font-size: 75%;vertical-align: text-bottom;}
+a{outline:none;color:#2181cc;text-decoration:underline;}
+a:link{ color:#2181cc;text-decoration:underline;}
+a:visited{ color:#2181cc;text-decoration:underline;}
+a:hover{color:#2181cc; text-decoration: none;}
+a:active{color:#2181cc;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
+nav ul {list-style:none;}
+input, select {vertical-align:middle;}
+/*fontsize 10px for_ie*/
+.fSmall {font-family:Verdana, sans-serif; font-size:62.5%;}
+/**/
+.indent {display: block;text-indent: -10000px;position: absolute;font-size:1px;top:0;left: 0;text-align: left;}
+/*css rollover*/
+a.rollover:hover img { opacity: 0.4; filter:alpha(opacity=40);}
+/**/
+/* @end */
+/* @group clear */
+div.wrap, div.section, div#content, div#main{min-height:1%;}
+* html div.wrap, * html div.section, * html div#content, * html div#main{height:1%;}
+/*\*//*/
+* html div.wrap, * html div.section, * html div#content, * html div#main{height:inherit;display:inline-table;}
+/**/
+/* @end */
+
+
+/* @group contents */
+div#container { max-width: 1400px; text-align: left; margin: 0 auto; padding: 0; text-align: left; position: relative;}
+header:after{content:".";display:block;height:0px;clear:both;visibility:hidden;}
+header h1 { margin: 0;padding: 0;text-align: center;}
+header h1 img { width: auto; max-width: 100%;}
+div.content { background: #ffffff; overflow: hidden;}
+div.projects { background: #dddddd; overflow: hidden;}
+div.wrap { max-width: 1000px; margin: 0 auto; padding: 0 2%; box-sizing: border-box;}
+div.content .wrap { margin: 5% auto;}
+div.projects .wrap {margin: 4% auto;}
+
+h2{ font-size: 120%; font-weight: bold;}
+div.content h2{ margin: 0 auto 20px;}
+div.projects h2 { margin: 0; padding: 0; text-align: left; background: #0ab99e;}
+div.projects h2 span { display: block; max-width: 1000px; margin: 0 auto; padding: 10px; color: #ffffff; box-sizing: border-box;}
+
+h3{font-size: 104%; font-weight: bold;}
+div.projects h3{ margin: 0 0 5px;}
+
+p { font-size: 100%;}
+div.content p{ margin: 0 auto 18px;}
+div.projects p.category { margin: 0 0 15px; font-size: 80%;}
+div.projects p.link {position: absolute;bottom: 10px; right: 10px;}
+
+div.projects ul { overflow: hidden;}
+div.projects li { position: relative; display: block; float: left; width: 32%; margin: 0 2% 2% 0; background: #fff;}
+div.projects li:nth-child(3n) { margin: 0 0 2% 0;}
+.prject_inner { margin: 0 0 30px; padding: 20px 10px 40px;}
+
+footer { background: black; border-top: solid 1px black; color: #ffffff; text-align: left; width: 100%; overflow: hidden;}
+footer p { color: #fff; padding: 20px 0 0; margin: 0;}
+footer p a,
+footer p a:link,
+footer p a:visited,
+footer p a:hover,
+footer p a:active { color: #fff; text-decoration: none;}
+footer p.append { width: 600px; float: left; font-size: 86%; padding-bottom: 20px;}
+footer p.copy { width: 101px; float: right;}
+
+#modalContents{display: none;}
+.mfp-auto-cursor .mfp-content{max-width: 1000px;}
+.mfp-close{top: -25px;}
+#jpn{margin: 0 auto;padding: 30px 0;background: #ffffff;}
+#jpn .wrap h2{margin: 0 auto 20px;}
+#jpn .wrap p{margin:0 auto 18px;}
+/* end */
+@media (min-width: 768px){
+.sp{ display: none;}
+}
+@media (max-width: 767px){
+.pc{ display: none;}
+header h1 img{width: 100%;}
+div.content .wrap { margin: 10% auto;}
+div.projects .wrap {margin: 8% auto;}
+
+div.projects li { width: auto; height: auto!important; margin-right: 0;}
+
+footer p.append { width: auto;}
+footer p a{ display: inline-block; font-size: 13px;}
+}
