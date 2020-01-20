@@ -34,7 +34,7 @@
       <h2><span>GGC Research Open Simulator</span></h2>
       <p>The GGC Research Open Simulator Project is a part of the Gundam Global Challenge</p>
       <p>The GGC Research Open Simulator is a GGC project by Dr. Kei Okada of the Tokyo University Graduate School of Information Science and Technology.</p>
-      <p>It was created as an open platform in both software and hardware forms using actual mobile suits that enables young people all over the world to become involved with robot development, and to advance the field of robotics in the hopes of ultimately creating a real-life Gundam.</p>
+      <p>GGC Research Open Simulator has developed an open robot platform for software and hardware by using Gundam CG data to create a system that lets youths from around the world participate in robot development. The aim is to contribute to the development of robotics and the making of "real Gundam".</p>
 
       <p><a href="https://github.com/gundam-global-challenge/gundam_robot" target="_blank">https://github.com/gundam-global-challenge/gundam_robot</a></p>
 
