@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8"> 
-<meta http-equiv="content-style-type" content="text/css" />
-<meta http-equiv="content-script-type" content="text/javascript" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
-<title>GGC Research Open Simulator</title>
-<meta  name="robots" content="INDEX, FOLLOW" />
-<meta  name="Author" content="SOTSU・SUNRISE" />
-<meta name="keywords" content="GUNDAM GLOBAL CHALLENGE" lang="en" xml:lang="en" />
-<meta name="description" content="GUNDAM GLOBAL CHALLENGE" lang="en" xml:lang="en" />
-<meta  name="copyright" content="SOTSU・SUNRISE" />
-<!-- sns -->
-<meta property="og:site_name" content="GGC Research Open Simulator" />
-<meta property="og:title" content="GGC Research Open Simulator" />
-<meta property="og:description" content="GGC Research Open Simulator" />
-<meta property="og:url" content="https://gundam-global-challenge.github.io" />
-<!-- sns end -->
 <link rel="stylesheet" type="text/css" href="assets/css/magnific_popup.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
 <script src="assets/js/jquery.js" type="text/javascript"></script>
 <script src="assets/js/magnificpopup_min.js" type="text/javascript"></script>
 <script src="assets/js/common.js" type="text/javascript"></script>
-</head>
-<body id="gros">
 <div id="container">
   <header>
       <h1><img src="assets/img/logo_main.jpg" alt="ガンダムGLOBAL CHALLENGE" class="pc"><img src="assets/img/logo_main_sp.jpg" alt="" class="sp"></h1>
@@ -77,5 +56,3 @@
     </div>
   </div>
 </div>
-</body>
-</html>
